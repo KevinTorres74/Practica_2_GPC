@@ -1,0 +1,58 @@
+/* Reset de estilos básicos para eliminar el espaciado predeterminado */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el cuerpo del formulario con degradado dorado */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #300e87, #722daf,#af2daf);
+    text-align: center;
+    padding: 100px;
+    color: #000; /* Cambia el color del texto a negro para mayor contraste */
+}
+
+
+
+/* Estilos para el formulario con fondo degradado */
+form {
+    background: linear-gradient(to bottom, #001f3f, #007bff);
+    color: #ffffff; /* Cambia el color del texto a blanco para mayor contraste */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+/* Estilos para las etiquetas de entrada y campos de entrada */
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #06c7f3a5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00ff6a;
+}
